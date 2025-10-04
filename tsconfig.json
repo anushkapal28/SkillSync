@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",                   // JS version to compile to
+    "module": "commonjs",                 // Module system for Node
+    "rootDir": "./src",                   // Source files folder
+    "outDir": "./dist",                   // Compiled JS output folder
+    "strict": true,                       // Enable all strict type checks
+    "esModuleInterop": true,              // Compatibility for importing CommonJS modules
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  }
+}
